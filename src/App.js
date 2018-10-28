@@ -8,8 +8,8 @@ export default function App() {
     setTimeout(() => {
       document.querySelector('.card').classList.add('card-flip');
       setTimeout(() => {
-        setBack(!back);
         document.querySelector('.card').classList.remove('card-flip');
+        setBack(!back);
       }, 500);
     }, 1000);
   };

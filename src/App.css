@@ -3,17 +3,19 @@ h1, p {
 }
 
 .card {
-  width: 50%;
+  width: 20rem;
   height: 20rem;
-  margin: 0 auto;
-  box-shadow: 0 0 10px rgba(2,2,2,0.2);
+  margin: 3rem auto;
+  box-shadow: 0 0 20px rgba(2,2,2,0.2);
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
   transform-style: preserve-3d;
-  transition: all 1s ease-in;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+  position: relative;
 }
 
 .card-flip {
