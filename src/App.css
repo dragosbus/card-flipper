@@ -1,32 +1,21 @@
-.App {
-  text-align: center;
+h1, p {
+  font-family: Lato;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  width: 50%;
+  height: 20rem;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(2,2,2,0.2);
+  border-radius: 5px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 2rem;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-flip {
+  transform: rotateY(360deg);
 }
